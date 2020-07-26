@@ -2,9 +2,9 @@
 
 This repository contains the public packages released by the Pharmacoepidemiology Unit of Agenzia regionale di sanità della Toscana.
 
-The main package currently supported is **MDBSTools**.
+The main package currently supported is **MDBStools**.
 
-## MDBSTools
+## MDBStools
 
 This R package is designed to contain multiple functions meant to be included in R scripts that execute data management for Multi-DataBase Studies. The functions follow the design depicted in [Gini et al, eGEMs 2016](https://egems.academyhealth.org/articles/abstract/10.13063/2327-9214.1189/).
 
