@@ -12,9 +12,11 @@ The functions are designed to manage data structured in a Common Data Model (CDM
 
 The design and development of this package was partly supported by IMI-ConcePTION (EU/EFPIA Innovative Medicines Initiative Joint Undertaking ConcePTION grant n° 821520). Functions have been tested for use with several CDMs, and notably with the [ConcePTION CDM](https://docs.google.com/spreadsheets/d/1hc-TBOfEzRBthGP78ZWIa13C0RdhU7bK/edit#gid=413205035).
 
-Functions currently released are listed below. Full documentation is contained in the package.
-
-- **CreateConceptSetDatasets** inspects a set of input tables af data and creates a group of datasets, each corresponding to a concept set. Each dataset contains the records of the input tables that match the corresponding concept set and is named out of it
-
-- **MergeFilterAndCollapse** performs the merge between a dataset with one row per unit of observation and a dataset with multiple rows while filtering by a condition. Furthermore it is possibile to collapse and compute summary statistics across strata of a categorical variable.
-
+This package is going to be superseded by the [ConceptionTools](https://github.com/IMI-ConcePTION/ConceptionTools) package wrapping multiple functions of the [ConcePTION data pipeline](https://www.imi-conception.eu/wp-content/uploads/2020/10/ConcePTION-D7.5-Report-on-existing-common-data-models-and-proposals-for-ConcePTION.pdf)
+* [CreateConceptSetDatasets](https://github.com/ARS-toscana/CreateConceptSetDatasets)
+* [CreateSpells](https://github.com/ARS-toscana/CreateSpells)
+* [MergeFilterAndCollapse](https://github.com/ARS-toscana/MergeFilterAndCollapse)
+* [CreateFlowChart](https://github.com/ARS-toscana/CreateFlowChart)
+* [ApplyComponentStrategy](https://github.com/ARS-toscana/ApplyComponentStrategy)
+* [DescribeThisDataset](https://github.com/ARS-toscana/DescribeThisDataset)
+* [CountPersonTime](https://github.com/IMI-ConcePTION/CountPersonTime)
